@@ -37,4 +37,33 @@ public class Resta {
 			return resultadoresta;
 	}
 
+/**
+ * 3. Restamos tres numeros reales @restaTresReales
+ * 
+ * @param numReal1 generamos un numero real
+ * @param numReal2 generamos un numero real
+ * @param numReal3 generamos un numero real
+ * @return resultado de la resta
+ */
+	
+	public double restaTresReales(double numReal1, double numReal2, double numReal3) {
+
+		double resultadoresta = numReal1 - numReal2 - numReal3;
+			return resultadoresta;
+		}
+
+
+	/**
+	 * 4. Método para acumular los valores introducidos @restaValoresMetidos
+	 * 
+	 * @param numLeido
+	 * @return Devuelve la suma de los resultados restados.
+	 */
+	
+	public int restaValoresMetidos(int numLeido) {
+			acumulado += numLeido;
+
+			return acumulado;
+		}
+	
 }

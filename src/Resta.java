@@ -12,7 +12,7 @@ public class Resta {
 
 
 /**
- * 1.  Método @restaDosReales para restar dos numeros reales
+ * 1.  MÃ©todo @restaDosReales para restar dos numeros reales
  * @param numReal1 generamos un numero real
  * @param numReal2 generamos un numero real
  * @return nos devuelve la resta de los numeros reales
@@ -24,7 +24,7 @@ public class Resta {
 	}
 
 /**
- * 2.  Método Resta numeros enteros @restaDosEnteros
+ * 2.  MÃ©todo Resta numeros enteros @restaDosEnteros
  * 
  * @param numEnt1 introducimos un numero real
  * @param numEnt2 introducimos un numero real
@@ -53,12 +53,12 @@ public class Resta {
 		}
 
 
-	/**
-	 * 4. Método para acumular los valores introducidos @restaValoresMetidos
-	 * 
-	 * @param numLeido
-	 * @return Devuelve la suma de los resultados restados.
-	 */
+/**
+ * 4. MÃ©todo para acumular los valores introducidos @restaValoresMetidos
+ * 
+ * @param numLeido
+ * @return Devuelve la suma de los resultados restados.
+ */
 	
 	public int restaValoresMetidos(int numLeido) {
 			acumulado += numLeido;

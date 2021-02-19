@@ -22,4 +22,18 @@ public class Producto {
 		return resultado;
 	}
 	
+	/**
+	 * Método para multiplicar dos números enteros.
+	 * 
+	 * @param numEnt1 primer valor real para hacer la operación.
+	 * @param numEnt2 segundo valor real para hacer la operación.
+	 * @return resultado devuelve la multiplicacion de los dos valores reales.
+	 */
+	public int multiplicacionDosEnteros(int numEnt1, int numEnt2) {
+
+		int resultado = numEnt1 * numEnt2;
+		return resultado;
+
+	}
+
 }	

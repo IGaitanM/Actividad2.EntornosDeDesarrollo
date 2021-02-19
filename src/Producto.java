@@ -51,4 +51,20 @@ public class Producto {
 
 	}
 	
+	/**
+	 * Método para calcular una potencia.
+	 * 
+	 * @param base valor de la base de la pontencia a calcular.
+	 * @param exponente valor del exponente de la potencia a calcular.
+	 * @return resultado devuelve el resultado de la potencia.
+	 */
+
+	public int potencia(int base, int exponente) {
+
+		int resultado = (int) Math.pow(base, exponente);
+
+		return resultado;
+	}
+
+	
 }	

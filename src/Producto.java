@@ -35,5 +35,20 @@ public class Producto {
 		return resultado;
 
 	}
+	
+	/**
+	 * Método para multiplicar tres números reales.
+	 * 
+	 * @param numReal1 primer valor real para hacer la operación.
+	 * @param numReal2 segundo valor real para hacer la operación.
+	 * @param numReal3 tercer valor real para hacer la operación.
+	 * @return resultado devuelve la multiplicacion de los tres valores reales.
+	 */
+	public double multiplicacionTresReales(double numReal1, double numReal2, double numReal3) {
 
+		double resultadomultiplicacion = numReal1 * numReal2 * numReal3;
+		return resultadomultiplicacion;
+
+	}
+	
 }	

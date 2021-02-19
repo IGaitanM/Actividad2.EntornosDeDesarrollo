@@ -11,16 +11,30 @@ public class Resta {
 	public static int acumulado = 0;
 
 
-	/**
-	 * 1.  Método @restaDosReales para restar dos numeros reales
-	 * @param numReal1 generamos un numero real
-	 * @param numReal2 generamos un numero real
-	 * @return nos devuelve la resta de los numeros reales
-	 */
-		public double restaDosReales(double numReal1, double numReal2) {
-		
-		double resultadoresta = numReal1 - numReal2;
-				return resultadoresta;
-		}
+/**
+ * 1.  Método @restaDosReales para restar dos numeros reales
+ * @param numReal1 generamos un numero real
+ * @param numReal2 generamos un numero real
+ * @return nos devuelve la resta de los numeros reales
+ */
+	public double restaDosReales(double numReal1, double numReal2) {
+	
+	double resultadoresta = numReal1 - numReal2;
+			return resultadoresta;
+	}
+
+/**
+ * 2.  Método Resta numeros enteros @restaDosEnteros
+ * 
+ * @param numEnt1 introducimos un numero real
+ * @param numEnt2 introducimos un numero real
+ * @return La resta de los dos numeros reales
+ */
+
+	public int restaDosEnteros (int numEnt1, int numEnt2) {
+	
+	int resultadoresta = numEnt1- numEnt2;
+			return resultadoresta;
+	}
 
 }

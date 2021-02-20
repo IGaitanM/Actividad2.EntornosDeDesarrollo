@@ -21,5 +21,17 @@ public class Cociente {
 	double resultado = numReal1 / numReal2;
 			return resultado ;
 	}
+	/**
+	 * Método para dividir dos números enteros.
+	 * 
+	 * @param numEnt1 primer valor entero para hacer la operación.
+	 * @param numEnt2 segundo valor entero para hacer la operación que sea diferente a 0.
+	 * @return resultado devuelve la división de los dos valores enteros. (El resultado de la operación es redondeado a un entero).
+	 */
+	public int dividirDosEnteros(int numEnt1, int numEnt2) {
+
+	int resultado = numEnt1 / numEnt2;
+		return resultado ;
+	}
 	
 }

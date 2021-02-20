@@ -11,6 +11,10 @@ public class PruebaMetodos {
 		Suma suma1 = new Suma();
 		System.out.println(suma1.sumaDosReales(5, 9));
 		
+		// Prueba método Cociente. Miguel Vilanova
+		Cociente coc = new Cociente();
+		System.out.println(coc.dividirDosEnteros(100, 20));
+		
 	}
 
 }

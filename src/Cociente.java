@@ -34,4 +34,33 @@ public class Cociente {
 		return resultado ;
 	}
 	
+	/**
+	 * Método para obtener el inverso de un número real.
+	 * 
+	* @param num valor real para hacer la operación que sea diferente a 0.
+
+	 * @return resultado devuelve el inverso del número real.
+	 */
+
+	public double inverso (double num) {
+		
+		 double resultado = (1/num);
+				 
+		return resultado;
+	}
+
+	/**
+	 * Método para obtener la raíz de un número real.
+	 * 
+	 * @param num valor real para hacer la operación.
+	 * @return resultado devuelve la raíz de un número real.
+	 */
+
+	public double raiz (double num) {
+				 
+		double resultado = Math.sqrt(num);
+				 
+		return resultado;
+	}
+	
 }

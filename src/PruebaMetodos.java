@@ -15,6 +15,10 @@ public class PruebaMetodos {
 		Cociente coc = new Cociente();
 		System.out.println(coc.dividirDosEnteros(100, 20));
 		
+		// Prueba método Resta. Antonio Pastor
+				Resta rest = new Resta();
+				System.out.println(rest.restaDosEnteros(100, 50));
+		
 	}
 
 }

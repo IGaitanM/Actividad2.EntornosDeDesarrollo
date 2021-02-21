@@ -61,7 +61,7 @@ public class Resta {
  */
 	
 	public int restaValoresMetidos(int numLeido) {
-			acumulado += numLeido;
+			acumulado -= numLeido;
 
 			return acumulado;
 		}
